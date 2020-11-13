@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="pagetwo.aspx.cs" Inherits="TccRawan.pagetwo" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QueryS.aspx.cs" Inherits="RawanApp.QueryS" %>
 
 <!DOCTYPE html>
 
