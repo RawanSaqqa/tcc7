@@ -11,7 +11,8 @@ namespace RawanApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           string x = (string)Session["jo"];
+           string x = (string)Session["jo"].ToString();
+            Response.Write(x);
         }
     }
 }

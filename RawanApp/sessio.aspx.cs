@@ -17,8 +17,9 @@ namespace RawanApp
         protected void Button1_Click(object sender, EventArgs e)
         {
             Session["jo"] = TextBox1.Text;
+            Response.Redirect("sessio2.aspx");
+
             
-           
         }
     }
 }
