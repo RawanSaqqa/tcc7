@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="HF.aspx" />
     <Content Include="page2.aspx" />
     <Content Include="QueryS.aspx" />
     <Content Include="QueryString.aspx" />
@@ -80,6 +81,13 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HF.aspx.cs">
+      <DependentUpon>HF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HF.aspx.designer.cs">
+      <DependentUpon>HF.aspx</DependentUpon>
     </Compile>
     <Compile Include="page2.aspx.cs">
       <DependentUpon>page2.aspx</DependentUpon>
