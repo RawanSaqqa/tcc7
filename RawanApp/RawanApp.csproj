@@ -71,6 +71,8 @@
     <Content Include="page2.aspx" />
     <Content Include="QueryS.aspx" />
     <Content Include="QueryString.aspx" />
+    <Content Include="sessio.aspx" />
+    <Content Include="sessio2.aspx" />
     <Content Include="viewstate.aspx" />
     <Content Include="Web.config" />
     <Content Include="page1.aspx" />
@@ -107,6 +109,20 @@
     </Compile>
     <Compile Include="QueryString.aspx.designer.cs">
       <DependentUpon>QueryString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sessio.aspx.cs">
+      <DependentUpon>sessio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sessio.aspx.designer.cs">
+      <DependentUpon>sessio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sessio2.aspx.cs">
+      <DependentUpon>sessio2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sessio2.aspx.designer.cs">
+      <DependentUpon>sessio2.aspx</DependentUpon>
     </Compile>
     <Compile Include="viewstate.aspx.cs">
       <DependentUpon>viewstate.aspx</DependentUpon>

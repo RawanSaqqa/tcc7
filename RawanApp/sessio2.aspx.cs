@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace RawanApp
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class sessio2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
-        }
-        protected void Button1_Click1(object sender, EventArgs e)
-        {
-            TextBox2.Text = TextBox1.Text;
-            TextBox1.Text = "";
+            Label1.Text = "the age is : " + (string)Session["jo"];
         }
     }
 }

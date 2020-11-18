@@ -10,10 +10,10 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="Name" Font-Bold="True" Font-Italic="True"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server" Width="165px"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" Width="115px" style="margin-left: 69px"></asp:TextBox>
             <br />
             <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Italic="True" Text="LAST_name"></asp:Label>
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" style="margin-left: 25px" Width="110px"></asp:TextBox>
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;

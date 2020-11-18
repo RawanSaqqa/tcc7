@@ -7,16 +7,18 @@ using System.Web.UI.WebControls;
 
 namespace RawanApp
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class sessio : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+
         }
-        protected void Button1_Click1(object sender, EventArgs e)
+
+        protected void Button1_Click(object sender, EventArgs e)
         {
-            TextBox2.Text = TextBox1.Text;
-            TextBox1.Text = "";
+            Session["jo"] = TextBox1.Text;
+            Response.Redirect("sessio2.aspx");
+            Label1.Text="the age is : "+Session["jo"];
         }
     }
 }
