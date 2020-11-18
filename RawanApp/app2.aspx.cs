@@ -7,11 +7,13 @@ using System.Web.UI.WebControls;
 
 namespace RawanApp
 {
-    public partial class sessio2 : System.Web.UI.Page
+    public partial class app2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           string x = (string)Session["jo"];
+            TextBox1.Text = Application["name"].ToString();
         }
+
+       
     }
 }

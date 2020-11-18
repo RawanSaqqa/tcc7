@@ -7,8 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace RawanApp
 {
-    public partial class sessio : System.Web.UI.Page
+    public partial class cook : System.Web.UI.Page
     {
+        private HttpCookie cookie;
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -16,9 +17,9 @@ namespace RawanApp
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Session["jo"] = TextBox1.Text;
-            
-           
+            HttpCookie cookie = new HttpCookie("test", TextBox1.Text);
+            Response.Cookies.Add(cookie);
+            Response.Redirect("cook2.aspx");
         }
     }
 }

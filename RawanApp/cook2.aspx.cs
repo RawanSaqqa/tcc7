@@ -7,11 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace RawanApp
 {
-    public partial class sessio2 : System.Web.UI.Page
+    public partial class cook2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           string x = (string)Session["jo"];
+            HttpCookieCollection cookie = Request.Cookies;
+            Response.Write(cookie["test"].Value);
+
+
         }
     }
 }

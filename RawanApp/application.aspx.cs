@@ -7,11 +7,17 @@ using System.Web.UI.WebControls;
 
 namespace RawanApp
 {
-    public partial class sessio2 : System.Web.UI.Page
+    public partial class application : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        { 
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
         {
-           string x = (string)Session["jo"];
+            Application["name"] = TextBox1.Text;
+            Response.Redirect("~/app2.aspx");
         }
     }
 }

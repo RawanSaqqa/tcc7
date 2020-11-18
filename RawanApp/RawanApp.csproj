@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app2.aspx" />
+    <Content Include="application.aspx" />
+    <Content Include="cook.aspx" />
+    <Content Include="cook2.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HF.aspx" />
     <Content Include="page2.aspx" />
@@ -79,6 +83,34 @@
     <Content Include="page1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="app2.aspx.cs">
+      <DependentUpon>app2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app2.aspx.designer.cs">
+      <DependentUpon>app2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="application.aspx.cs">
+      <DependentUpon>application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="application.aspx.designer.cs">
+      <DependentUpon>application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cook.aspx.cs">
+      <DependentUpon>cook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cook.aspx.designer.cs">
+      <DependentUpon>cook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cook2.aspx.cs">
+      <DependentUpon>cook2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cook2.aspx.designer.cs">
+      <DependentUpon>cook2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
